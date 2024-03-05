@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #0f0f0f;
+}
+
+#local {
+    width: 100%;
+    background-color: #ff4444; /* Neon red */
+    padding: 15px 0;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #f0f0f0; /* Light gray */
+    text-align: center;
+    text-shadow: 0 0 10px #ff4444, 0 0 20px #ff4444, 0 0 40px #ff4444; /* Neon red glow */
+}
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td {
+    border: none; /* Remove borders */
+    padding: 8px;
+    color: #f0f0f0; /* Light gray */
+}
+
+#cities tr:nth-child(even) {
+    background-color: #0f0f0f; /* Dark background */
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
+
+img {
+    max-width: 50px; /* Adjust size of the flags */
+    height: auto;
+    border-radius: 50%; /* Make flag images circular */
+    box-shadow: 0 0 20px #00ffff; /* Neon cyan glow */
+}
